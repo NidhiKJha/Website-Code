@@ -1,12 +1,17 @@
-
+.App{
+  width: 100%;
+}
 body {
-  margin: 0;
+  width: 100%;
   text-align: center;
+  margin: 0px!important;
+  padding: 0px!important;
 }
 
 .light-theme {
   background-color: #fff;
   color: #444444;
+  width: 100%;
 }
 
 nav {
@@ -14,13 +19,14 @@ nav {
   background-color: #503d81;
   width: 100%;
   padding: 20px;
-  padding-left: 0px!important;
+  padding-left: 0px !important;
   color: #f8f8f8;
-  padding-right: 0px!important;
+  padding-right: 0px !important;
 }
 
 .content {
   padding: 0.5em;
+  padding-bottom: 0px !important;
   margin: 0 auto;
   max-width: 600px;
   font-size: 1.2rem;
@@ -30,6 +36,7 @@ nav {
 .dark-theme {
   background-color: #1f1b24;
   color: #f8f8f8;
+  width: 100%;
 }
 
 .dark-theme nav {
@@ -39,7 +46,7 @@ nav {
 .dark-theme code {
   color: red;
 }
-.dark-theme .ptitle{
+.dark-theme .ptitle {
   color: rgb(210, 54, 105);
 }
 .dark-theme .pbody {

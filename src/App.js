@@ -7,6 +7,7 @@ import Team from "./components/Team"
 function App() {
   const [darkTheme, setDarkTheme] = React.useState(true);
   return (
+    <div className= "App">
     <div className={darkTheme ? "dark-theme" : "light-theme"}>
       <nav>
         <NavBar />
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Team/>
       </div>
+    </div>
     </div>
   );
 }
